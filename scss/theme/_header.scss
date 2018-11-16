@@ -1,0 +1,23 @@
+.header-form input.form-control{
+    background-color: #5E9E4D !important;
+    border: none;
+}
+
+.header-form button{
+    border: none !important;
+}
+
+header .btn{
+   background-color: #5E9E4D !important;
+}
+
+
+
+
+@media(min-width:1200px){
+   
+    .header-form{
+        width: 75% !important;
+    } 
+
+}

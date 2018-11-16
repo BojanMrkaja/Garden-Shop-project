@@ -1,0 +1,80 @@
+
+.popular-products-wrapper{
+    font-family: 'SocialGothic', sans-serif;
+    
+    .product-caption:last-child{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .container{
+          border-bottom:1px solid $secondary;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    a{
+        color: $black;
+        
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+.popular-products-wrapper figure{
+    display: inline-block;
+    max-width: 250px;
+    max-height: 200px;
+    position: relative;
+
+    img.discount{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+}
+
+.popular-products-wrapper .container .owl-carousel .owl-nav{
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top:40%;
+    transform: translateY(-40%);
+
+
+
+    button{
+        width: 30px;
+        height: 30px;
+        background: $primary !important;
+        color: $white;
+        text-align: center;
+        padding: 0;
+
+        &:hover{
+            outline: none;
+        }
+    }
+
+    .fa{
+        line-height: 30px;
+        font-size: 30px;
+    }
+}
+
+@media(min-width:768px){
+    .popular-products-wrapper .container .owl-carousel .owl-nav{
+        top:-50px;
+    }
+    
+    .popular-products-wrapper h3{
+        font-size: 24px;
+    }
+}

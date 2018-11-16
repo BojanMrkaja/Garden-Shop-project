@@ -1,0 +1,38 @@
+.offer article{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0 !important;
+    
+    .offer-caption{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        
+        a {
+            &:hover{
+                text-decoration: none;
+            }
+        }  
+    }   
+}
+
+.offer .offer-item-4{
+    padding: 140px 0 !important;
+}
+
+
+
+ @media(min-width:992px){
+        .offer article{
+            padding: 130px 0!important;
+           
+        }
+        
+        .offer .offer-item-1 .offer-caption p{
+           width: 75%;
+            
+        }
+              
+    }

@@ -1,0 +1,84 @@
+
+.our-services p{
+    color: #9B9B9B;
+}
+
+.garden-care{
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .garden-care-caption{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+}
+
+.garden-care-2{
+    padding: 50px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.garden-care-3 article.right-garden-care{
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:576px){
+    .garden-care .garden-care-caption{
+        width: 55%;
+    }
+}
+
+@media (min-width:768px){
+    .garden-care{
+        margin-bottom: 100px !important;
+    }
+
+    .garden-care .garden-care-caption{
+        width: 60%;
+    }
+
+    .garden-care-2 .garden-care-caption-2{
+        width: 50%;
+    }
+}
+
+@media (min-width:992px){
+    .our-services{
+        margin-bottom: 60px!important;
+    }
+
+
+    .garden-care{
+        padding: 200px 0;
+
+        .garden-care-caption{
+            width: 40%;
+            bottom: 30px;
+            left: 20px;
+        }
+    }
+    
+    .garden-care-2{
+        margin-bottom: 80px!important;
+    }
+    
+    .garden-care-3 article.right-garden-care{
+        padding: 150px 0;
+    }
+}
+
+@media (min-width:1200px){
+    .garden-care-2 .garden-care-caption-2{
+        width: 40%;
+    }
+}

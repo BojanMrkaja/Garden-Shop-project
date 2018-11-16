@@ -1,0 +1,44 @@
+.gallery .row img{
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.gallery-header{
+    font-family: 'SocialGothic' , sans-serif;
+
+    .category-item{
+        font-weight: bold;
+
+            &:hover,
+            &.active{
+            cursor: pointer;
+            color: $primary;
+        }
+    }
+
+    h2{
+        font-weight: bold;
+    }
+}
+
+.gallery .gallery-item{
+    transition: all 0.4s ease-in-out;
+}
+
+.hide{
+    transform: scale(0);
+    width: 0!important;
+    height: 0!important;
+    padding: 0!important;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+@media(min-width:768px){
+
+    .gallery-header .category-item{
+        font-size: 18px;
+    }
+}
+

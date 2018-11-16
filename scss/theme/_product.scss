@@ -1,0 +1,45 @@
+.product{
+    font-family: 'SocialGothic';
+}
+
+
+.product .breadcrumb .breadcrumb-item a{
+    color: #9B9B9B!important;
+    transition:0.3s ease;
+    font-size:10px;
+    font-family: 'HelveticaNeue';
+
+    &:hover,
+        &.active{
+        text-decoration: none;
+        color: #000!important;
+    }
+}
+
+.product table tr:last-of-type {
+    border-bottom: 1px solid #ECE9E8!important;
+}
+
+.product article{
+    font-family: 'SocialGothic';
+
+    img{
+        margin-left: -10px;
+    }
+
+    p{
+        &:last-of-type{
+            font-weight: bold;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .product .breadcrumb .breadcrumb-item a{
+        font-size: 14px;
+    }
+    
+    .popular-products-wrapper{
+        margin-bottom: 100px !important;
+    }
+}

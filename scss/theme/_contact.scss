@@ -1,0 +1,43 @@
+.contact{
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-us{
+    font-family: 'SocialGothic', sans-serif;
+    
+}
+
+.contact-form button{
+   height: 35px;
+   width: 121px;
+   border-radius: 2px;
+   background-color: #FD3B03;
+   border: none;
+}
+ 
+
+@media(min-width:768px){
+    .contact{
+        padding: 150px 0;
+    }
+    
+    .contact-form{
+        margin-bottom: 50px!important;
+    }
+}
+
+@media(min-width:992px){
+    .contact{
+        padding: 200px 0;
+    }
+}
+
+
+@media(min-width:1200px){
+    .contact{
+        padding: 250px 0;
+    }
+}

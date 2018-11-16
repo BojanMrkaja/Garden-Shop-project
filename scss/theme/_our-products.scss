@@ -1,0 +1,43 @@
+
+
+.our-products p{
+    color: #9B9B9B; 
+}
+
+.our-products a{
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.our-products figure{
+    display: inline-block;
+    max-width: 250px;
+    max-height: 200px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+
+
+    &:hover img{
+        -webkit-transform: scale3d(1.2, 1.2, 1);
+        transform: scale3d(1.2, 1.2, 1);
+
+    }
+
+    img{
+        -webkit-transition: all 0.5s linear;
+        transition: all 0.5s linear;
+        width: 250px;
+        height: 170px;
+    }
+}
+
+@media(min-width:768px){
+    .our-products{
+        margin-bottom: 100px !important;
+
+    }
+
+
+}
+

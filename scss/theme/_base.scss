@@ -1,0 +1,33 @@
+
+
+html{
+    font-size: 12px;
+    font-family: 'HelveticaNeue', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'SocialGothic', sans-serif;
+}
+
+
+@media(min-width:992px){
+    html{
+        font-size: 14px;
+
+    } 
+
+    h2{
+        font-size: 36px;
+        font-weight: bold;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+a:hover, a:focus, a:visited{
+    outline: none !important;
+}
+

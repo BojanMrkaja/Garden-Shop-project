@@ -1,0 +1,115 @@
+.show-case-slider-wrapper .home{
+    padding: 100px 0 !important;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+
+    .show-case-description{
+        position: absolute;
+        bottom: 10px;
+    }
+}
+
+.show-case-slider-wrapper .show-case-left{
+    padding: 100px 0;
+    position: relative;
+    
+    .decorate{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    
+    a{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+    }
+}
+
+.show-case-slider-wrapper .offer-item{
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    .offer-caption{
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+.show-case-slider-wrapper .owl-carousel .owl-nav{
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 40%;
+    transform: translateY(-40%);
+    
+    button{
+        &:hover{
+            background: transparent;
+            outline: none;
+        }
+    }
+}
+
+.show-case-slider-wrapper .owl-carousel .owl-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+.show-case-slider .owl-nav button span{
+    font-size: 30px;
+    color: $white;
+}
+
+@media(min-width:768px){
+    .show-case-slider-wrapper .home{
+        padding: 150px 0 !important;
+    }
+    
+    .show-case-slider-wrapper .home .show-case-description{
+        bottom: 20px;
+    }
+    
+    .show-case-slider-wrapper .offer-item{
+        padding: 150px 0;
+    }
+    
+    .show-case-slider-wrapper .show-case-left{
+        padding: 150px 0;
+    }
+
+}
+
+@media(min-width:992px){
+    .show-case-slider-wrapper .home{
+        padding: 200px 0 !important;
+    }
+
+    .show-case-slider-wrapper .home .show-case-description{
+        bottom: 40px;
+    }
+    
+    .show-case-slider-wrapper .offer-item{
+        padding: 200px 0;
+    }
+    
+     .show-case-slider-wrapper .show-case-left{
+        padding: 200px 0;
+    }
+}
